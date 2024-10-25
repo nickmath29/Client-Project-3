@@ -1,22 +1,20 @@
 SEC Jamboree #1 Womens 5000 Meters Varsity
 Tue Sep 10 2024
 https://www.athletic.net/CrossCountry/meet/238311/results/952328
-Ann Arbor Skyline’s varsity girls placed 6th overall, led by a standout performance from Lucia Llanes, who set a personal record (PR) of 19:05.20 and finished 8th overall. Following her was Irie Scrase, finishing in 20:25.80. Other key contributors included Mara Mocanu (22:31.20), Alison Kauffman (23:32.40), and Elin Tenbrink (24:09.40). The team's efforts secured them a competitive score against strong opponents.
-
-
+"<p>Ann Arbor Skyline’s varsity girls placed 6th overall, led by a standout performance from <span class=""athlete"">Lucia Llanes</span>, who set a personal record (PR) of <time>19:05.20</time> and finished 8th overall. Following her was <span class=""athlete"">Irie Scrase</span>, finishing in <time>20:25.80</time>. Other key contributors included <span class=""athlete"">Mara Mocanu</span> (<time>22:31.20</time>), <span class=""athlete"">Alison Kauffman</span> (<time>23:32.40</time>), and <span class=""athlete"">Elin Tenbrink</span> (<time>24:09.40</time>). The team's efforts secured them a competitive score against strong opponents.</p>"
 Place,Team,Score
-1,Ypsilanti Lincoln,10
-2,Adrian,13
-3,Ann Arbor Pioneer,20
-4,Saline,29
-5,Pinckney,37
-6,Chelsea,60
-7,Ann Arbor Skyline,67
-8,Tecumseh,79
-9,Ann Arbor Huron,88
-10,Dexter,127
-11,Ypsilanti Community,130
-12,Temperance Bedford,167
+1,Ypsilanti Lincoln,23
+2,Adrian,33
+3,Saline,36
+4,Ann Arbor Pioneer,60
+5,Pinckney,68
+6,Chelsea,74
+7,Tecumseh,104
+8,Ann Arbor Huron,107
+9,Dexter,116
+10,Ann Arbor Skyline,143
+11,Ypsilanti Community,161
+12,Temperance Bedford,189
 
 Place,Grade,Name,Athlete Link,Time,Team,Team Link,Profile Pic
 1.,9,Natasza Dudek,https://www.athletic.net/athlete/26476823/cross-country,18:27.30,Ann Arbor Pioneer,https://www.athletic.net/athlete/26476823/cross-country,26476823.jpg
@@ -30,7 +28,7 @@ Place,Grade,Name,Athlete Link,Time,Team,Team Link,Profile Pic
 9.,10,Jaelyn Ray,https://www.athletic.net/athlete/16012725/cross-country,19:08.10,Pinckney,https://www.athletic.net/athlete/16012725/cross-country,16012725.jpg
 10.,12,Lucinda Paliani,https://www.athletic.net/athlete/18890673/cross-country,19:42.20,Ann Arbor Huron,https://www.athletic.net/athlete/18890673/cross-country,18890673.jpg
 11.,12,Corynn Gady,https://www.athletic.net/athlete/18817743/cross-country,20:00.70,Saline,https://www.athletic.net/athlete/18817743/cross-country,18817743.jpg
-12.,11,Lillian Schlack,https://www.athletic.net/athlete/22262889/cross-country,20:03.10,Saline,https://www.athletic.net/athlete/22262889/cross-country,22262889.jpg
+12.,11,Lillian (Lilli) Schlack,https://www.athletic.net/athlete/22262889/cross-country,20:03.10,Saline,https://www.athletic.net/athlete/22262889/cross-country,22262889.jpg
 13.,9,Madison Petty,https://www.athletic.net/athlete/26351474/cross-country,20:05.20,Adrian,https://www.athletic.net/athlete/26351474/cross-country,26351474.jpg
 14.,10,Katarina Munson,https://www.athletic.net/athlete/23594665/cross-country,20:23.90,Saline,https://www.athletic.net/athlete/23594665/cross-country,23594665.jpg
 15.,10,Irie Scrase,https://www.athletic.net/athlete/23564884/cross-country,20:25.80,Ann Arbor Skyline,https://www.athletic.net/athlete/23564884/cross-country,23564884.jpg
@@ -107,6 +105,7 @@ Place,Grade,Name,Athlete Link,Time,Team,Team Link,Profile Pic
 86.,11,Chloe Wanner,https://www.athletic.net/athlete/21228169/cross-country,26:32.90,Temperance Bedford,https://www.athletic.net/athlete/21228169/cross-country,21228169.jpg
 87.,9,Eve Wagner,https://www.athletic.net/athlete/21304523/cross-country,26:38.00,Chelsea,https://www.athletic.net/athlete/21304523/cross-country,21304523.jpg
 88.,9,Abigail Adams,https://www.athletic.net/athlete/17372519/cross-country,26:44.00,Pinckney,https://www.athletic.net/athlete/17372519/cross-country,17372519.jpg
+89.,9,Suzy Hedricks,https://www.athletic.net/athlete/26392855/cross-country,27:02.20,Adrian,https://www.athletic.net/athlete/26392855/cross-country,26392855.jpg
 90.,9,Mattie Leightner,https://www.athletic.net/athlete/26351477/cross-country,27:05.00,Adrian,https://www.athletic.net/athlete/26351477/cross-country,26351477.jpg
 91.,11,Aurora Welling,https://www.athletic.net/athlete/21157134/cross-country,27:15.10,Chelsea,https://www.athletic.net/athlete/21157134/cross-country,21157134.jpg
 92.,10,Carlee Bakewell,https://www.athletic.net/athlete/23595371/cross-country,27:19.80,Adrian,https://www.athletic.net/athlete/23595371/cross-country,23595371.jpg
