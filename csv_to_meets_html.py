@@ -1,6 +1,54 @@
 import csv
 import os
 
+def generate_html_links(directory):
+    # List to store links
+    links = []
+
+    # Traverse the files in the directory
+    for filename in os.listdir(directory):
+        # Check if the file is an HTML file
+        if filename.endswith(".html"):
+            # Create a link for the file
+            link = f'<a href="/meets/{filename}">{filename}</a>'
+            links.append(link)
+
+    # Wrap the links in a nav tag
+    nav_content = "<nav><details>\n" + "\n".join(links) + "\n<summary>Meets Pages</summary></details></nav>"
+    return nav_content
+
+def get_current_directory():
+    # Get the current working directory
+    current_directory = os.getcwd()
+    return current_directory
+
+def insert_links_into_index(nav_content, index_file='index.html'):
+    # Read the contents of the index.html file
+    with open(index_file, 'r') as file:
+        content = file.read()
+
+    # Insert the nav content into the header section
+    header_open_tag = '<header>'
+    header_close_tag = '</header>'
+    
+    if header_open_tag in content and header_close_tag in content:
+        # Finding the position of the header tag
+        header_start = content.find(header_open_tag) + len(header_open_tag)
+        content = content[:header_start] + "\n" + nav_content + "\n" + content[header_start:]
+    else:
+        # If there is no header tag, create one
+        content = header_open_tag + "\n" + nav_content + "\n" + header_close_tag + "\n" + content
+
+    # Write the modified content back to the index.html file
+    with open(index_file, 'w') as file:
+        file.write(content)
+
+directory = get_current_directory() # Use the current directory or specify the path to your directory
+n_d = os.path.join(directory, "meets")
+nav_html = generate_html_links(n_d)
+insert_links_into_index(nav_html)
+
+
 def csv_to_html(csv_filename, output_folder):
     # Derive the HTML filename by replacing the CSV extension with '.html' in the meets folder
     html_filename = os.path.join(output_folder, os.path.splitext(os.path.basename(csv_filename))[0] + '.html')
@@ -23,6 +71,7 @@ def csv_to_html(csv_filename, output_folder):
 
         # Initialize HTML content
         html_content = f"""
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +85,7 @@ def csv_to_html(csv_filename, output_folder):
    <a href = "#main">Skip to Main Content</a>
    <nav>
      <ul>
-        <li><a href="index.html">Home Page</a></li>
+        <li><a href="../index.html">Home Page</a></li>
         <li><a href="#summary">Summary</a></li>
         <li><a href="#team-results">Team Results</a></li>
         <li><a href="#individual-results">Individual Results</a></li>
@@ -236,3 +285,5 @@ if __name__ == "__main__":
         print(f"Folder '{meets_folder}' does not exist.")
     else:
         process_meet_files()
+
+
