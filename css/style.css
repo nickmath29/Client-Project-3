@@ -11,7 +11,12 @@
     }
 
     a{
-        overflow-wrap: break-word;
+        overflow-wrap: anywhere;
+    }
+    .link-list li:nth-child(2)::after{
+        display: inline;
+        content: "\A";
+        white-space: pre;
     }
 
     .header, .content, .footer {
