@@ -142,13 +142,13 @@ def csv_to_html(csv_filename, output_folder):
 
                 # Add the athlete div
                 html_content += f"""
-<div class="athlete">
+<div class="athlete" id="a-info">
 <figure> 
     <img src="../images/profiles/{profile_pic}" width="200" alt="Profile picture of {name}"> 
     <figcaption>{name}</figcaption>
 </figure>
 <dl>
-    <dt>Place</dt><dd>{place}</dd>
+    <dt id="P">Place</dt><dd id="p">{place}</dd>
     <dt>Time</dt><dd>{time}</dd>
     <dt>Grade</dt><dd>{grade}</dd>
 </dl>
