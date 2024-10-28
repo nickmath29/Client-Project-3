@@ -61,7 +61,7 @@
 
     @media (prefers-reduced-motion: reduce) {
         h1:focus, h2:focus, h3:focus, h1:hover, h2:hover, h3:hover {
-          transform: none;
+          transition: none;
     }
 }
 
