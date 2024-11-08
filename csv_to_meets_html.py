@@ -80,12 +80,13 @@ def csv_to_html(csv_filename, output_folder):
 <title>{link_text}</title>
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="/dist/css/lightbox.css">
 </head>
    <body>
    <a href = "#main">Skip to Main Content</a>
    <nav>
      <ul>
-        <li><a href="../">Home Page</a></li>
+        <li><a href="../index.html">Home Page</a></li>
         <li><a href="#summary">Summary</a></li>
         <li><a href="#team-results">Team Results</a></li>
         <li><a href="#individual-results">Individual Results</a></li>
@@ -144,8 +145,10 @@ def csv_to_html(csv_filename, output_folder):
                 html_content += f"""
 <div class="athlete" id="a-info">
 <figure> 
+    <a href="../images/profiles/{profile_pic}" target ="_blank" data-lightbox="athlete" data-title="Rank: {place}" data-alt="Athlete Ranked {place}"> 
     <img src="../images/profiles/{profile_pic}" width="200" alt="Profile picture of {name}"> 
     <figcaption>{name}</figcaption>
+    </a>
 </figure>
 <dl>
     <dt id="P">Place</dt><dd id="p">{place}</dd>
@@ -164,7 +167,8 @@ def csv_to_html(csv_filename, output_folder):
         # Close the HTML document
         html_content += """
    </section>
-   </main>   
+   </main>  
+   <script src="/dist/js/lightbox-plus-jquery.js"></script> 
    <footer>
                      <p>
                      Skyline High School<br>
