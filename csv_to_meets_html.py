@@ -14,7 +14,7 @@ def generate_html_links(directory):
             links.append(link)
 
     # Wrap the links in a nav tag
-    nav_content = "<nav><details>\n" + "\n".join(links) + "\n<summary>Meets Pages</summary></details></nav>"
+    nav_content = "<nav><details><li>\n" + "\n".join(links) + "\n<summary>Meets Pages</summary></details></nav>"
     return nav_content
 
 def get_current_directory():
