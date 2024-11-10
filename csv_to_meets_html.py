@@ -145,7 +145,7 @@ def csv_to_html(csv_filename, output_folder):
                 html_content += f"""
 <div class="athlete" id="a-info">
 <figure> 
-    <a href="/images/profiles/{profile_pic}" target ="_blank" data-lightbox="athlete" data-title="Rank: {place}" data-alt="Athlete Ranked {place}"> 
+    <a href="../../images/profiles/{profile_pic}" target ="_blank" data-lightbox="athlete" data-title="Rank: {place}" data-alt="Athlete Ranked {place}"> 
     <img src="../images/profiles/{profile_pic}" width="200" alt="Profile picture of {name}"> 
     <figcaption>{name}</figcaption>
     </a>
