@@ -78,12 +78,6 @@
         padding: 10px;
     }
     
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        flex-wrap:wrap;
-    }
 
     a{
         overflow-wrap: anywhere;
@@ -99,18 +93,6 @@
         margin-bottom: 10px;
     }
 
-    #a-info{
-        display: grid;
-        grid-template-columns: 2fr;
-        gap: 10px;
-        padding: 10px;
-
-        background-color: #f2f2f2; /* Light gray background */
-        border: 1px solid #ddd; /* Light gray border */
-        border-radius: 5px; /* Slightly rounded corners */
-        text-align: center;
-        text-indent: 0%;
-    }
     img:hover{
         border: 5px solid black;
         transform: scale(1.2);
@@ -132,7 +114,14 @@
     }
 
     nav{
-        display: flex;
+        display: grid;
+    }
+
+    .athlete{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: space-around;
+        align-items: center;
     }
 
     @media (prefers-reduced-motion: reduce) {

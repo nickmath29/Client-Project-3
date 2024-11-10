@@ -168,6 +168,14 @@ def csv_to_html(csv_filename, output_folder):
         html_content += """
    </section>
    </main>  
+      <script>document.querySelectorAll('img').forEach(img => {
+  img.onerror = function() {
+    this.onerror = null; // Prevents infinite loop if default image is also missing
+    this.src = '../images/default_image.jpg';
+    this.alt = ""
+  };
+});
+</script>
    <script src="/dist/js/lightbox-plus-jquery.js"></script> 
    <footer>
                      <p>

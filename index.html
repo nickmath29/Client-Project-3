@@ -50,6 +50,33 @@
         
         */
     </script>
+    <h2>Signup for latest updates</h2>
+    <form  action = "#" method = "get">
+        <fieldset>
+            <legend>Your details</legend>
+            <ol>
+                <li><label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="First and last name" required autofocus></li>
+    
+                <li><label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="example@domain.com" required></li>
+    
+                <li><label for="email2">Email Confirmation</label>
+                <input id="email2" name="email2" type="email" placeholder="example@domain.com" required></li>
+    
+                <li><label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" pattern="\d{3}-\d{3}-\d{4}" placeholder="123-456-7890" 
+                    class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd" required></li>
+    
+                <li><label for="pass">Password</label>
+                <input id="pass" name="password" type="password" required></li>
+            </ol>
+        </fieldset>
+      
+              <!-- Submit Button -->
+                  <button type="submit" onclick="check_email(this)">Sign Up Now!</button>
+          </form>
+          <script src="../dist/js/form.js"></script>
     
 
 </body>
