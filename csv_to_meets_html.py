@@ -80,7 +80,7 @@ def csv_to_html(csv_filename, output_folder):
 <title>{link_text}</title>
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="/dist/css/lightbox.css">
+<link rel="stylesheet" href="../dist/css/lightbox.css">
 </head>
    <body>
    <a href = "#main">Skip to Main Content</a>
