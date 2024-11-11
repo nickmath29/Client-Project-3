@@ -176,7 +176,7 @@ def csv_to_html(csv_filename, output_folder):
   };
 });
 </script>
-   <script src="/dist/js/lightbox-plus-jquery.js"></script> 
+   <script src="../dist/js/lightbox-plus-jquery.js"></script> 
    <footer>
                      <p>
                      Skyline High School<br>
